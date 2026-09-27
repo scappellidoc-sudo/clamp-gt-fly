@@ -1,0 +1,12 @@
+data/
+*.parquet
+*.feather
+*.h5
+*.pkl
+__pycache__/
+.venv/
+venv/
+results/
+runs/*/
+!runs/.gitkeep
+.DS_Store
