@@ -1,9 +1,8 @@
 # Inventario neuroni
 
-`fafb783_inventory_starter.csv`
+`fafb783_core_high.csv` — root ID FlyWire FAFB v783 usati nei controlli.
 
-- `dataset` = FAFB_FlyWire_v783
-- `banc_root_id` vuoto: da riempire dopo, snapshot BANC v888
-- `confidence`: high = usare per il v0; medium/check = da confermare su Codex
-- MN9 in annotazione si chiama **CB0701** (l'ID Shiu del destro e' in tabella)
-- I 129 `GRN_sugar_or_water_morphology` NON sostituiscono le 20 `GRN_sugar_Shiu_example`
+- dataset = FAFB_FlyWire_v783. Non copiare questi ID su BANC v888.
+- CB0701 = MN9 (L 720575940618238523, R 720575940660219265).
+- DNp01 = Giant Fiber (L 720575940622838154, R 720575940632499757).
+- I GRN morfologici non sostituiscono la lista zucchero di Shiu usata nel controllo PER.
